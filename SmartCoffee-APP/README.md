@@ -42,7 +42,7 @@ O aplicativo SmartCoffee utiliza as API's Google Cloud Platform e Google Cloud M
     - http://localhost:8080/_ah/admin
 
 - Servidor (Deploy)
-	- (Build -> Deploy Module to App Engine...
+	- Build -> Deploy Module to App Engine...
 
 [1]: https://cloud.google.com/appengine/docs/java/endpoints/
 [2]: https://developers.google.com/cloud-messaging/android/start
