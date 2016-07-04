@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "792772479119",
+    "project_id": "gcm-example-c5203"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792772479119:android:040656a143043b25",
+        "android_client_info": {
+          "package_name": "com.example.rebelo.gcm_example"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoZp8-P8rx3rWH-p-QUaUscF8KLp52uI0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="607dp">
+
+                <TextView
+                    android:id="@+id/text_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:text="Smart Coffee"
+                    android:textSize="30dp"
+                    android:layout_marginTop="10dp" />
+
+
+                <!--android:src="@drawable/coffee_grains"-->
+                <ImageView
+                    android:id="@+id/image_status"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitCenter"
+                    android:layout_below="@+id/text_title"
+                    android:layout_alignParentStart="true"
+                    android:layout_above="@+id/text_status" />
+
+                <!--android:text="Cafeteira disponível!"-->
+                <TextView
+                    android:id="@+id/text_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:textSize="35dp"
+                    android:layout_above="@+id/text_waiting"
+                    android:layout_centerHorizontal="true" />
+
+                <!--android:text="Prepare um delicioso café"-->
+                <TextView
+                    android:id="@+id/text_waiting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="55dp"
+                    android:layout_gravity="center"
+                    android:textSize="25dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:enabled="true" />
+
+                <!--android:text="10/06/2016"-->
+                <TextView
+                    android:id="@+id/text_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:textSize="20dp"
+                    android:layout_below="@+id/text_status"
+                    android:layout_toStartOf="@+id/text_waiting" />
+
+                <!--android:text="12:00:00"-->
+                <TextView
+                    android:id="@+id/text_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:layout_alignTop="@+id/text_waiting"
+                    android:layout_alignEnd="@+id/text_title" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>
