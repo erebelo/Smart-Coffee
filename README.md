@@ -2,7 +2,7 @@ Smart Coffee
 ==================
 
 Smart Coffee, é um projeto de Internet das Coisas (IoT, do inglês Internet of Things), que informa qualquer mudança no status do preparo de um café, ou seja, se o café esta pronto, em preparo, ou se a cafeteira está disponível para uso.
-A mudança de status, é feita através da ánalise e interpretação da variação da corrente elétrica implementada por um algoritmo, que quando identica tal mudança, envia seus dados para nuvem (Google Cloud Platform) através de uma Plataforma de IOT, e dispara um push notification para os dispositivos android que possuem o aplicativo (Smart Coffee) instalado.
+A mudança de status, é feita através da ánalise e interpretação da variação da corrente elétrica implementada por um algoritmo, que quando identifica tal mudança, envia seus dados para nuvem (Google Cloud Platform) através de uma Plataforma de IOT, e dispara um push notification para os dispositivos android que possuem o aplicativo (Smart Coffee) instalado.
 
 ## Componentes
 - NodeMCU + ESP8266
